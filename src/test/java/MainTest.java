@@ -9,4 +9,11 @@ public class MainTest {
 
         assertThat(str).isEqualTo("test");
     }
+
+    @Test
+    public void failTest(){
+        String str = "test";
+
+        assertThat(str).isEqualTo("test1");
+    }
 }
